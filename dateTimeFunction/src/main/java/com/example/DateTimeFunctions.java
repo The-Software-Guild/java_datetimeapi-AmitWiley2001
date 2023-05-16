@@ -34,8 +34,8 @@ public class DateTimeFunctions {
 	 */
 	public static LocalDate getLaterDatebyDays(LocalDate date, int x) {
 		//YOUR CODE STARTS HERE
-		LocalDate newDate = date.plusDays(x+1);
-		return newDate;
+		LocalDate newDate = date.plusDays(x);
+		return null;
 		//YOUR CODE ENDS HERE
 
 	}
